@@ -5,12 +5,12 @@ const pc = newPlayableCharacter(100, 110)
 const npc = newNonPlayableCharacter(50, 300)
 
 // have the NPC start walking east immediately
-npc.walkNorth(1400, () => {
+npc.walkNorth(1400,()=>{
     npc.walkEast(1200,()=>{
         npc.walkSouth(300,()=>{
             npc.walkEast(1500,()=>{
                 npc.walkSouth(1500,()=>{
-                    npc.walkWest(2700, ()=>{
+                    npc.walkWest(2700,()=>{
                         npc.walkNorth(400)
                     })
                 })
