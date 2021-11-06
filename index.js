@@ -9,8 +9,10 @@ npc.walkNorth(1400, () => {
     npc.walkEast(1200,()=>{
         npc.walkSouth(300,()=>{
             npc.walkEast(1500,()=>{
-                npc.walkWest(2700,()=>{
-                    npc.walkNorth(400)
+                npc.walkSouth(1500,()=>{
+                    npc.walkWest(2700, ()=>{
+                        npc.walkNorth(400)
+                    })
                 })
             })
         })
